@@ -17,7 +17,7 @@
             android:layout_height="0dp"
             android:layout_weight="0.075"
             android:id="@+id/sp1"
-            />
+            android:entries="@array/places_types"/>
 
     <LinearLayout
             android:layout_width="match_parent"
@@ -52,7 +52,7 @@
             android:text="Get Places"
             android:id="@+id/getPlaces"/>
 
-    <fragment
+    <FrameLayout
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="0.6"
@@ -75,14 +75,14 @@
                     android:layout_height="wrap_content"
                     android:text="Latitude"
                     android:textSize="15sp"
-                    android:id="@+id/lati"/>
+                    android:id="@+id/tv_lati"/>
 
             <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Longitude"
                     android:textSize="15sp"
-                    android:id="@+id/longi"/>
+                    android:id="@+id/tv_longi"/>
 
 
         </LinearLayout>

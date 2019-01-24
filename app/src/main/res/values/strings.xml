@@ -1,3 +1,17 @@
 <resources>
     <string name="app_name">GooglePlaces_and7amjan19</string>
+    <string-array name="places_types">
+        <item>atm</item>
+       <item>bakery</item>
+        <item>bank</item>
+        <item>bar</item>
+        <item>beauty_salon</item>
+        <item>hospital</item>
+        <item>hindu_temple</item>
+        <item>train_station</item>
+        <item>police</item>
+        <item>restaurant</item>
+    </string-array>
+
+
 </resources>
